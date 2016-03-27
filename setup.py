@@ -28,8 +28,6 @@ setup(
             'pyenchant',
             'pyflakes',
             'pylint',
-            'pytest',
-            'pytest-cov',
         ],
     },
     entry_points={
