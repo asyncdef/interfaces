@@ -1,7 +1,6 @@
 """Setuptools configuration for interfaces."""
 
 from setuptools import setup
-from setuptools import find_packages
 
 
 with open('README.rst', 'r') as readmefile:
@@ -10,7 +9,7 @@ with open('README.rst', 'r') as readmefile:
 
 setup(
     name='asyncdef.interfaces',
-    version='0.1.3',
+    version='0.2.0',
     url='https://github.com/asyncdef/interfaces',
     description='Public APIs for the core asyncdef components.',
     author="Kevin Conway",
@@ -21,6 +20,7 @@ setup(
         'asyncdef',
         'asyncdef.interfaces',
         'asyncdef.interfaces.engine',
+        'asyncdef.interfaces.emitter',
     ],
     install_requires=[
         'iface',
