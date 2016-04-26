@@ -9,7 +9,7 @@ with open('README.rst', 'r') as readmefile:
 
 setup(
     name='asyncdef.interfaces',
-    version='0.2.0',
+    version='0.2.1',
     url='https://github.com/asyncdef/interfaces',
     description='Public APIs for the core asyncdef components.',
     author="Kevin Conway",
